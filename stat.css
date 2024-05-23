@@ -1,0 +1,64 @@
+/* 섹션 스타일 */
+section {
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+}
+
+section h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #0D2B4D;
+}
+
+section a {
+  text-decoration: none;
+  color: #0D2B4D;
+  font-weight: bold;
+  float: right;
+  margin-bottom: 10px;
+}
+
+section a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* 테이블 스타일 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+
+thead {
+  background-color: #0D2B4D;
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+img {
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+}

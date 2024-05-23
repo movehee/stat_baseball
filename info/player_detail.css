@@ -1,0 +1,51 @@
+h2, h3 {
+    color: #0D2B4D;
+}
+div {
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+table, th, td {
+    border: 1px solid #ccc;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+th {
+    background-color: #0D2B4D;
+    color: white;
+}
+th:hover .tooltip, td:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+.tooltip {
+    visibility: hidden;
+    opacity: 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    white-space: nowrap;
+    transition: opacity 0.3s;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+th:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+select {
+    padding: 5px;
+    margin-bottom: 20px;
+}

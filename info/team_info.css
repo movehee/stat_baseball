@@ -1,0 +1,109 @@
+.team_column {
+    display: flex;
+    flex-wrap: wrap; /* 내용이 넘칠 경우 자동으로 다음 줄로 내려가도록 설정함 */
+}
+
+.team_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.team_item:last-child {
+    margin-right: 0; /* 마지막 요소의 오른쪽 마진 제거 */
+}
+
+.team_info {
+    margin-left: 120px;
+    padding-top: 15px;
+}
+
+/* 각 팀에 대한 배경 이미지 설정 */
+/*버럭*/
+.scr{
+    background-image: url('/img/scream_logo.png');
+}
+/*야돌*/
+.ydo{
+    background-image: url('/img/yadol_logo.png');
+}
+/*작은거인들*/
+.min{
+    background-image: url('/img/miniGiants_logo.png');
+}
+/*제우스*/
+.zeu{
+    background-image: url('/img/zeus_logo.png');
+}
+/*양산곰돌*/
+.ysb{
+    background-image: url('/img/YSbears_logo.png');
+}
+/*팀YG*/
+.tyg{
+    background-image: url('/img/YG_logo.png');
+}
+/*바스터즈*/
+.bas{
+    background-image: url('/img/bastard_logo.png');
+}
+/*불타는독수리*/
+.fie{
+    background-image: url('/img/fireEagle_logo.png');
+}
+/*더원*/
+.one{
+    background-image: url('/img/THEONE_logo.png');
+}
+/*자동차호랑이*/
+.car{
+    background-image: url('/img/TigerCar_logo.png');
+}
+/*ONESUN*/
+.ons{
+    background-image: url('/img/onesun_logo.png');
+}
+/*리버스 베이스볼*/
+.rev{
+    background-image: url('/img/reverse_logo.png');
+}
+/*개릴라*/
+.grr{
+    background-image: url('/img/dog_logo.png');
+}
+/*나이트 로즈*/
+.nit{
+    background-image: url('/img/nightRose_logo.png');
+}
+/*나인 파이어스*/
+.nin{
+    background-image: url('/img/nine_logo.png');
+}
+/*불빠따*/
+.bbd{
+    background-image: url('/img/fireBAT_logo.png');
+}
+/*스모킹 에이지*/
+.smk{
+    background-image: url('/img/smoking_logo.png');
+}
+/*태양 크라운즈*/
+.crw{
+    background-image: url('/img/sun_logo.png');
+}
+/*파이어볼트*/
+.fib{
+    background-image: url('/img/fireBolt_logo.png');
+}
+/*퍼펙트게임*/
+.per{
+    background-image: url('/img/perfect_logo.png');
+}

@@ -1,0 +1,38 @@
+<nav>
+	<div id="container">
+		<p onclick='render("stat");'>
+			<img src="../img/main_logo.png" alt="로고" class="logo" />스텟 베이스볼
+		</p>
+	</div>
+	<div class='btn_area'>
+		<button class="btn_out" onclick='logout();'>로그아웃</button>
+	</div>
+	<ul id='topbar'>
+		<li class='category'>
+			<span id='title'>기록실</span>
+			<ul class='dropdown_list hide'>
+				<li><a onclick='render("record/recent_matches");'>최근 경기</a></li>
+				<li><a onclick='render("record/total_record");'>통산 기록</a></li>
+			</ul>
+		</li>
+		<li class='category'>
+			<span id='title'>시즌 정보</span>
+			<ul class='dropdown_list hide'>
+				<li><a onclick='render("rank/team_rank");'>팀 순위</a></li>
+				<li><a onclick='render("rank/player_rank");'>선수 순위</a></li>
+			</ul>
+		</li>
+		<li class='category'>
+			<span id='title'>팀 정보</span>
+			<ul class='dropdown_list hide'>
+				<li><a onclick='render("info/team_info");'>팀정보</a></li>
+			</ul>
+		</li>
+		<li class='category'>
+			<span id='title'>선수 정보</span>
+			<ul class='dropdown_list hide'>
+				<li><a onclick='render("info/player_info");'>선수정보</a></li>
+			</ul>
+		</li>
+	</ul>
+</nav>

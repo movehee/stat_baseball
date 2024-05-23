@@ -1,0 +1,97 @@
+/*제목*/
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+/*셀렉트바*/
+select {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+    max-width: 200px;
+}
+
+select:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+/*본문*/
+.team_container {
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.team_table {
+    width: 100%;
+    border-collapse: collapse;
+    display: table;
+}
+
+.team_row {
+    display: table-row;
+    justify-content: space-between;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 0;
+}
+
+.header {
+    background: #0D2B4D;
+    color: #fff;
+}
+
+.team_cell {
+    flex: 1;
+    text-align: center;
+    padding: 10px 5px;
+    font-size: 14px;
+    display: table-cell;
+    border: 1px solid #ddd;
+}
+
+.team_cell:first-child {
+    flex: 0.5;
+}
+
+.team_cell:last-child {
+    flex: 1.5;
+}
+
+.team_row.header .team_cell {
+    border-right: 1px solid #fff;
+}
+
+.team_row.header .team_cell:last-child {
+    border-right: none;
+}
+
+.team_row:not(.header):hover {
+    background-color: #f1f1f1;
+}
+
+.team_row:last-child {
+    border-bottom: none;
+}
+
+/* 팀 로고 스타일 */
+.team_logo {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* 팀 이름 셀 스타일 */
+.team_cell.team_name {
+    font-weight: bold;
+}

@@ -1,0 +1,65 @@
+/* 전체 테이블 스타일 */
+#team_table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+#team_table th, #team_table td {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+/* 헤더 스타일 */
+#team_table thead.header th {
+  background-color: #0D2B4D;
+  color: white;
+  cursor: pointer;
+}
+
+/* hover 스타일 */
+#team_table th:hover {
+  background-color: #09243a;
+}
+
+/* 선수명 셀에 이미지 추가하기 */
+#team_table td img {
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+
+/* alternate row coloring */
+#team_table tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+#team_table tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+/* 선택된 포지션 스타일 */
+h3#position {
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+h3#position:hover {
+  color: #0D2B4D;
+  text-decoration: underline;
+}
+
+/* 스크롤 가능한 섹션 */
+.scrollable_section {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.team_container {
+  margin-top: 20px;
+}
