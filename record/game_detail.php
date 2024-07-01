@@ -148,7 +148,7 @@
 <hr>
 <div class='btn'>
 	<?php 
-	// admin이 -1일 경우에만 표시
+	// admin이 -1일 경우에만 표시 === 관리자 권한
 	if($admin === -1){
 	?>
 	<button onclick="registration()">등록</button>
