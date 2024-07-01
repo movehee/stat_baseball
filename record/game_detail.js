@@ -4,7 +4,6 @@ function is_onchange(_this, index){
 	let parent = $(_this).parent().parent(); 
 	let all_inputs = parent.find('input'); // 모든 input요소 선택
 
-	let is_valid = true; // 유효성 검사 위한 변수 초기화
 	// 모든 input 요소에 대해 반복
 	for(let i=0; i<all_inputs.length; i++){
 		let input_value = parseFloat($(all_inputs[i]).val()); // 현재 반복 중인 input 요소의 값 가져오기
